@@ -1,0 +1,87 @@
+html {
+    background: linear-gradient(rgba(51, 204, 51, 0.5), rgba(51, 204, 51, 0.5)), url(https://keanyproduce.com/wp-content/uploads/2016/10/hero-press-inquiries.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#survey-form {
+    margin: 100px auto;
+    width: 550px;
+    border: 5px solid white;
+    border-radius: 18px;
+    padding: 10px;
+    text-align: left;
+    display: block;
+    background:rgb(23, 107, 23)
+}
+
+fieldset {
+    border: 0;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+
+fieldset:first-of-type {
+    margin-top: 20px;
+}
+
+fieldset:last-of-type {
+    border-bottom: 0;
+}
+
+.form {
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.inline {
+    width: unset;
+}
+
+#title, #description{
+    margin: auto;
+    text-align: center;
+}
+
+#name, #email, #number {
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+select {
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    width: 350px;
+    height: 125px;
+    display: block;
+    margin: 10px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#submit {
+    width: 30%;
+    height: 30px;
+    display: block;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+} 

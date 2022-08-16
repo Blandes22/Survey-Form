@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Customer Survey Form</title>
+</head>
+
+<body>
+    <form id="survey-form">
+        <h1 id="title">Customer Survey Form</h1>
+        <p id="description">Thank you for participating in the <em>Factory Fresh Produce</em> survey!</p>
+        <fieldset>
+               <label id="name-label"> First and last name: <input id="name" type="text" placeholder="Enter your name..." required/></label>
+            <label id="email-label"> Email address: <input type="email" id="email" placeholder="Enter your email..." required /></label>
+            <label id="number-label"> Age (optional): <input type="number" id="number" min="18" max="120" placeholder="Select your age..." /></label>
+        </fieldset>
+        <fieldset>
+            <p class="form">Would you reccomend <em>Factory Fresh Proudce</em> to family or friends?</p>
+            <label><input type="radio" name="reccomend" value="yes" class="inline" checked /> Yes</label>
+            <label><input type="radio" name="reccomend" value="no" class="inline" > No</label>
+            <label><input type="radio" name="reccomend" value="maybe" class="inline" > Maybe</label>
+        </fieldset>
+        <fieldset>
+            <p class="form">How did you hear about us?</p>
+            <select id="dropdown">
+                <option value="">(select one)</option>
+                <option value="1">Friend or Family</option>
+                <option value="2">Online Ad</option>
+                <option value="3">Radio Ad</option>
+                <option value="4">Television Ad</option>
+                <option value="5">Other</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <p type="impovements" class="form">In your opinion, what can we imporve on? <em>(check all that apply)</em></p>
+            <label><input type="checkbox" value="employees" class="inline"/> Employee helpfulness</label>
+            <label><input type="checkbox" value="fruits" class="inline"/> Variety of fruits</label>
+            <label><input type="checkbox" value="vegetables" class="inline"/> Variety of vegetables</label>
+            <label><input type="checkbox" value="cleanliness" class="inline"/> Cleanliness of store</label>
+            <label><input type="checkbox" value="quality" class="inline"/> Quality of products</label>
+            <label><input type="checkbox" value="other" class="inline"/> Other (please describe below)</label>
+            <label><p>Please enter any other suggestions for improvement below: </p><textarea placeholder="Enter comments here..." maxlength="500"></textarea></label>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit"/>
+    </form>
+</body>
+
+</html>
